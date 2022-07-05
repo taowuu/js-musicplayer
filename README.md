@@ -1,2 +1,2 @@
 # js-musicplayer
-![image](./js-musicplayer)
+![image](./js-musicplayer.gif)
