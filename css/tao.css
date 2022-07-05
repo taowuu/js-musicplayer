@@ -1,0 +1,79 @@
+body {
+    /*
+    body 样式预设
+    */
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.tao-button {
+    /*
+    自定义按钮样式
+    */
+    border: 1px solid transparent;
+    background-color: #1ba1e2;
+    color: #fff;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.tao-div-center {
+    /*
+    div 居中
+    */
+    margin: 0 auto;
+}
+
+.tao-picture-frame {
+    /*
+    自定义图片边框
+    */
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: 1px solid #dee2e6;
+    border-radius: 2px;
+}
+
+.tao-fade-slide {
+    /*
+    淡入淡出效果支持
+    */
+    opacity: 1;
+    transition: opacity 0.2s;
+}
+
+.tao-fade-slide.fade {
+    /*
+    淡入淡出效果支持
+    */
+    opacity: 0.8;
+}
+
+.tao-input-range {
+    -webkit-appearance: none;
+}
+
+input[type='range']::-webkit-slider-runnable-track{
+    -webkit-appearance: none;
+    background-color: #eee;
+    height: 8px;
+    border-radius: 4px;
+    position: relative;
+  }
+  
+  input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: 5px solid #1ba1e2;
+    height: 15px;
+    width: 15px;
+    border-radius: 8px;
+    background: #fff;
+    cursor: pointer;
+    position: relative;
+    top: -3px;
+  }

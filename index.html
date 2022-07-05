@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/tao.css">
+    <style id="id-style-volume">
+        #id-input-volume.gradient::-webkit-slider-runnable-track{
+            background:linear-gradient(to right, #1ba1e2 0%, #1ba1e2 10%,#eee 10%, #eee);
+        }
+    </style>
+    <style id="id-style-process">
+        #id-input-process.gradient::-webkit-slider-runnable-track{
+            background:linear-gradient(to right, #1ba1e2 0%, #1ba1e2 0%,#eee 0%, #eee);
+        }
+    </style>
+</head>
+<body>
+    <div id="id-div-container" class="tao-div-center tao-picture-frame">
+        <!-- 封面 -->
+        <div id="id-div-picture">
+            <audio id="id-audio"></audio>
+            <span id="id-span-name"></span>
+            <br>
+            <span id="id-span-author"></span>
+            <br>
+            <img id="id-img" class="tao-picture-frame">
+        </div>
+        <!-- 进度条 -->
+        <div id="id-div-process">
+            <input id="id-input-process" class="tao-input-range gradient" type="range" min="0" max="100" value="0">
+        </div>
+        <!-- 控制器 -->
+        <div id="id-div-controler">
+            <button id="id-button-pre" class="tao-button"> < </button>
+
+            <button id="id-button-play" class="tao-button active"> ► </button>
+            <button id="id-button-pause" class="tao-button"> | | </button>
+            <button id="id-button-next" class="tao-button"> > </button>
+            <input id="id-input-volume" class="tao-input-range gradient" type="range" min="0" max="100" value="10">
+        </div>
+    </div>
+</body>
+<script src="js/tao.js"></script>
+<script src="js/music.js"></script>
+</html>
